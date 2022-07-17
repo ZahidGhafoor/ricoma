@@ -1,0 +1,94 @@
+.navbar__container{
+    background-color: #002045;
+
+    .nav__data{
+    height: 66px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .tabs{
+        display: flex;
+        align-items: center;
+        gap: 5rem;
+        color: white;
+        font-family: 'Montserrat' !important;
+        font-weight: 700;
+        font-size: 14px;
+        @media (max-width:"600px"){
+            display: none;
+        }
+
+    }
+    .burger{
+        display: none;
+        @media (max-width:"600px"){
+            display: block;
+        }
+    }
+    .ham{
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .cart{
+        position: relative;
+.number{
+            position: absolute;
+            font-size: 10px;
+            color: white;
+            background-color: blue;
+            padding: 2px 5px;
+            border-radius: 50px;
+            top: -4px;
+            right: -7px;
+        }
+    }
+    .cart__icon{
+        color: white;
+        font-size: 35px;
+        
+    }
+    .burger__icon{
+        color: white;
+        font-size: 45px;
+    }
+}
+
+
+}.MuiPaper-root{
+// box-shadow: 0 0.5rem 1rem #00000082 !important;
+border-left: 1px solid white !important;
+
+    background-color: #002045 !important;
+}
+
+.drawer{
+    .drawer__header{
+        display: flex;
+        align-items: center;
+        margin: 1rem;
+        justify-content: space-between;
+
+       .cross{
+        color: white;
+        font-size: 30px;
+       } 
+    }
+
+    .tabs{
+        padding:  1rem ;
+        
+        .tab1{
+            display: flex;
+            gap: 2rem;
+            margin: 1rem 0;
+            .dtext{
+                font-size: 16px;
+                color: gray;
+                font-weight: 500;
+            }
+        }
+    }
+}

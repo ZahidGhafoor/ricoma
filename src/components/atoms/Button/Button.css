@@ -1,0 +1,13 @@
+.btn_com{
+    background: linear-gradient(90deg,#ff7200 .93%,#fc9500);
+    border: none;
+    border-radius: 4px;
+    color: white;
+    /* font-family: var(--ff-poppins); */
+    font-size: 25px;
+    font-weight: 600;
+    height: 83.08px;
+    line-height: 20px;
+    margin-top: 14px;
+    width: 100%;
+}

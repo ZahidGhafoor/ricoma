@@ -1,0 +1,132 @@
+
+.rcard__container{
+    box-shadow: 0 1px 4px rgb(0 0 0 / 20%);
+    display: flex;
+    align-items: center;
+    padding: 10px 40px;
+    background-color: #f3f4f5;
+    gap: 1rem;
+    position: relative;
+@media (max-width:"600px"){
+flex-direction: column;
+padding: 10px 15px;
+
+}
+    .left__img{
+        border-radius: 50px;
+    }
+    .right__text{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        @media (max-width:"600px"){
+           align-items: center;
+           justify-content: center;
+            }
+    .rcard__heading{
+        font-style: italic;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 21px;
+        /* identical to box height, or 150% */
+        
+        
+        /* Dark Gray */
+        
+        color: #322E2B;
+    }
+    .para{
+        font-family: 'Open Sans';
+font-style: italic;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+
+
+
+
+/* Dark Gray */
+
+color: #322E2B;
+    }
+    }
+
+    .fb__icon{
+       
+    position: absolute;
+    top: 13px;
+    left: 11px;
+
+    }
+    .quote__icon{
+        top: -19px;
+        right: 19px;
+        position: absolute;
+    }
+}
+
+.color{
+    box-shadow: 0 1px 4px rgb(0 0 0 / 20%);
+    display: flex;
+    align-items: center;
+    padding: 10px 40px;
+    background-color: white;
+    gap: 1rem;
+    position: relative;
+@media (max-width:"600px"){
+flex-direction: column;
+}
+    .left__img{
+        border-radius: 50px;
+    }
+    .right__text{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        @media (max-width:"600px"){
+           align-items: center;
+           justify-content: center;
+            }
+    .rcard__heading{
+        font-style: italic;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 21px;
+        /* identical to box height, or 150% */
+        
+        
+        /* Dark Gray */
+        
+        color: #322E2B;
+    }
+    .para{
+        font-family: 'Open Sans';
+font-style: italic;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+height: 58px;
+@media (max-width:"600px"){
+height: auto;
+}
+
+
+/* Dark Gray */
+
+color: #322E2B;
+    }
+    }
+
+    .fb__icon{
+       
+    position: absolute;
+    top: 13px;
+    left: 11px;
+
+    }
+    .quote__icon{
+        top: -19px;
+        right: 19px;
+        position: absolute;
+    }
+}
