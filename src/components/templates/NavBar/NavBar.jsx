@@ -3,7 +3,7 @@ import Container from '@mui/material/Container';
 
 
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
-import logo from "../../../assets/logo.png"
+import logo from "../../../assets/footer-logo.svg"
 import MenuIcon from '@mui/icons-material/Menu';
 
 import "./NavBar.scss"

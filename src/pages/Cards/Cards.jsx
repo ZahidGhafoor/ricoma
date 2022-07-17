@@ -73,7 +73,7 @@ const Cards = () => {
                     </div>
                     <div className="c1">
                         <div className="card1__heading">
-                            Lorem ipsum dolor sit amet, consectetur
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                         </div>
                         <div className="slider">
                             <Carousel

@@ -1,5 +1,9 @@
 .cards__container{
     margin: 5rem 0;
+@media (max-width:"850px"){
+    margin: 5rem 10px;
+
+}
     .card__heading{
         font-family: system-ui;
         font-style: normal;
@@ -12,7 +16,7 @@ text-align: center;
 text-transform: capitalize;
 
 color: #000000;
-max-width: 800px;
+max-width: 770px;
 margin: 0 auto;
 margin-top: 8rem;
 margin-bottom: 2rem;
@@ -111,10 +115,20 @@ padding: 0 1.5rem;
 
 
 color: #000000;
+@media (max-width:"600px"){
+    line-height: 22px;
+    font-size: 15px;
+    text-align: center;
+}
     }
     .card__btn{
         margin: 1.5rem 3rem;
         margin-top: 0;
+@media (max-width:"600px"){
+    margin: 1.5rem;
+    margin-top: 7px;
+
+}
     }
 
     .react-multiple-carousel__arrow{

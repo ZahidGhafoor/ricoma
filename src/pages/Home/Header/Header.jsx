@@ -40,7 +40,11 @@ const Header = () => {
                         </div>
         <iframe className='video__card' src="https://www.youtube.com/embed/orbkg5JH9C8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen={true}></iframe>
                     </div>
+                    
                     <div className="right__form">
+                    <div className="headingg">
+                            Dui Augue Lectus In Ut At Lorem
+                        </div>
                         <div className="top_cards">
                             <img src={blue} alt="" className="card1" />
                             <img src={white} alt="" className="card2" />
@@ -51,15 +55,16 @@ const Header = () => {
                             <div className="upper">
                                 <div className="bottom">
                                     <div className="form__heading">Dictumst dui egestas.</div>
+                                    <div className="form__heading2">Fill out the form to ssecure the best deal!</div>
                                     <div className="fname">
                                         <div className="name">
                                             <label className='lebel' for="your-name">First Name</label> <br />
-                                            <input placeholder='Enter your first name' className="input" name="your-name" type="text" />
+                                            <input placeholder='First name' className="input" name="your-name" type="text" />
 
                                         </div>
                                         <div className="name">
                                             <label className='lebel'  for="your-name">Last Name</label> <br />
-                                            <input placeholder='Enter your last name' className="input" name="your-name" type="text" />
+                                            <input placeholder='Last name' className="input" name="your-name" type="text" />
 
                                         </div>
                                         
@@ -67,30 +72,36 @@ const Header = () => {
                                     <div className="fname">
                                         <div className="name">
                                             <label className='lebel' for="your-name">Email Adress</label> <br />
-                                            <input placeholder='Enter your Email Adress' className="input" name="your-name" type="text" />
+                                            <input placeholder='Email Adress<' className="input" name="your-name" type="text" />
 
                                         </div>
                                         <div className="name">
                                             <label className='lebel'  for="your-name">Phone Number</label> <br />
-                                            <input placeholder='Enter your phone number' className="input" name="your-name" type="text" />
+                                            <input placeholder='Phone number' className="input" name="your-name" type="text" />
 
                                         </div>
                                     </div>
                                     <div className="fname">
                                         <div className="namee">
                                             <label className='lebel' for="your-name">Coutry</label> <br />
-                                            <input placeholder='Enter your Email Adress' className="inputt" name="your-name" type="text" />
+                                            <input placeholder='Country' className="inputt" name="your-name" type="text" />
 
                                         </div>
                                         
                                     </div>
 
+                                    <div className="hello">
                                     <Button text="Et nibh lacus elit."/>
+                                    </div>
+                                   
+
                                     <div className="logos" >
 
                                     <img src={logos} alt="" />
                                     </div>
-                                    <RatingCard heading = "Sit eu." para ="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Porta venenatis, lobortis proin justo, in vel elementum. Convallis." quote ="quote" value="5" color="color"/>
+                                   <div className="ratingg">
+                                   <RatingCard heading = "Sit eu." para ="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Porta venenatis, lobortis proin justo, in vel elementum. Convallis." quote ="quote" value="5" color="color"/>
+                                   </div>
 
                                     <div className="bottom__text">
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer risus, faucibus sit viverra cras aliquam parturient. Interdum amet imperdiet sit feugiat donec. Proin.

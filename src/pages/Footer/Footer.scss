@@ -18,10 +18,21 @@
         flex-direction: column;
         gap: 2rem;
         padding: 0 20px;
+        .footer_video2{
+            display: none;
+            @media (max-width:"1000px"){
+            display: block;
+        border-radius: 5px;
+
+            }
+        }
         .glogo{
             height: 60px;
             @media (max-width:"1000px"){
                 height: 74px;
+            }
+            @media (max-width:"600px"){
+                height: 43px;
             }
         }
         .social_icons{
@@ -77,6 +88,10 @@
         // height: 158px;
         // width: 300px;
         border-radius: 5px;
+        @media (max-width:"1000px"){
+            display: none;
+
+            }
     }
     .footer__dummy{
         display: flex;
@@ -108,9 +123,9 @@
     justify-content: space-between;
     font-weight: 700;
     padding: 5px 0;
+    align-items: center;
     @media (max-width:"700px"){
         flex-direction: column;
-        align-items: center;
         gap: 2px;
     
     }
@@ -119,4 +134,18 @@
 
 .time{
     display: flex;
+}
+
+.btm__prof{
+    width: 221px;
+height: 40px;
+
+
+background: #0076FF;
+border: 2px solid #FFFFFF;
+border-radius: 72px;
+display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
 }

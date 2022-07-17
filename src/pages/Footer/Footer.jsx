@@ -72,6 +72,7 @@ Object.keys(timeLeft).forEach((interval) => {
                     
                         <div className="first__grid">
                             <img src={logo} alt="" className="glogo" />
+                            <iframe      className='footer_video2' src="https://www.youtube.com/embed/orbkg5JH9C8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen={true}></iframe>
                             <div className="social_icons">
                                 <FacebookIcon className='footer-icons' />
                                 <TwitterIcon className='footer-icons' />
@@ -167,11 +168,11 @@ Object.keys(timeLeft).forEach((interval) => {
                 <div className="footer__dummy">
                     <div className="dummy1">
                         <div className="hello">Neque dictum.</div>
-                        <div className="hello">Zahid.</div>
+                        <div className="hello">Pulvinar.</div>
 
                     </div>
                     <div className="dummy2">
-                        <div className="hello">Developed By Zahid Ghafoor.</div>
+                        <div className="hello">Elementum lectus suspendisse ipsum.</div>
                        
 
                     </div>
@@ -185,7 +186,7 @@ Object.keys(timeLeft).forEach((interval) => {
                 <div className="btm__name">ZAHID GHAFOOR</div>
                
                 <div className="time"> {timerComponents.length ? timerComponents : <span>Time's up!</span>}</div>
-                <div className="btm__prof">FULL STACK DEVELOPER</div>
+                <div className="btm__prof">Lorem Ipsum</div>
 
 
             </div>
