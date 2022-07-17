@@ -38,7 +38,7 @@ const Header = () => {
                         <div className="para1">
                             Nulla ut elementum, nibh viverra pharetra eu. Aliquet sem condimentum posuere cursus quis risus. Mauris, auctor ridiculus blandit lacus. <span>Porttitor diam a amet pharetra tellus, senectus augue. Id sed a quis morbi ac odio cursus metus sit. Sapien ut non eu non egestas non mauris. </span> Elit, scelerisque mauris aenean justo.
                         </div>
-        <iframe allow="fullscreen" className='video__card' src="https://www.youtube.com/embed/orbkg5JH9C8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen={true}></iframe>
+        <iframe className='video__card' src="https://www.youtube.com/embed/orbkg5JH9C8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen={true}></iframe>
                     </div>
                     <div className="right__form">
                         <div className="top_cards">
