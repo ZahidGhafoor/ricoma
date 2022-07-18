@@ -6,7 +6,7 @@ import "./Header.css"
 import video from "../../../assets/video.png"
 
 import blue from "../../../assets/blue_card.svg"
-import orange from "../../../assets/orange_card.svg"
+import orange from "../../../assets/orange_card-cropped.svg"
 import white from "../../../assets/white_card.svg"
 import logos from "../../../assets/A_plus.svg"
 import Button from '../../../components/atoms/Button/Button'
@@ -49,6 +49,13 @@ const Header = () => {
                             <img src={blue} alt="" className="card1" />
                             <img src={white} alt="" className="card2" />
                             <img src={orange} alt="" className="card3" />
+
+                        </div>
+
+                        <div className="mobile__form__care">
+                        <img src={white} alt="" className="card4" />
+                            <img src={blue} alt="" className="card5" />
+                            <img src={orange} alt="" className="card6" />
 
                         </div>
                         <div className="form__card">
